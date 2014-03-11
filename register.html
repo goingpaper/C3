@@ -1,37 +1,24 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-	<title>Login</title>
-
+	<style type="text/css">
+		.parent{word-spacing:"60px";}
+	</style>
 </head>
 <body>
-	<header>
-		<h1>Login Information</h1>
-	</header>
-	<form>
-		Name:
-		<input type="text">
-		Email Address:
-		<input type="email">
-		
-		Age:
-		<input type="radio" name="age">0-40
-		<input type="radio" name="age">>40
-		Job:
-		<input type="checkbox" name="job">Cleaner
-		<input type="checkbox" name="job">Programmer
-		Language:
-		<select name="language">
-			<option>English</option>
-			<option>French</option>
-			<option>Portugese</option>
-		</select>
-		Comments:
-		<input type="textarea">
-		<input type="submit" name="submit">
-	</form>
-	
+
+<div id="container" style="width:1000px">
+
+<div id="header" style="background-color:#FF0000;">
+<h1 style="margin-bottom:0;">Register</h1></div>
+
+<div id="menu" style="background-color:#FFD700;width:100px;float:left;">
+Menu
+	<a href="login.html">Login</a>
+	<a href="register.html">Register</a>
+</div>
+
+<div id="content" style="background-color:#EEEEEE;width:900px;float:left;">
 	<form>
 		<table border="border">
 		 	<tr>
@@ -78,9 +65,14 @@
 		 		<th>Reset</th>
 		 		<th><input type="reset" name="reset"></th>
 		 	</tr>
-
+		 </table>
 	</form>
+</div>
+
+<div id="footer" style="background-color:#FF0000;clear:both;text-align:center;float:down;">
+website.com</div>
+
+</div>
+
 </body>
-
-
-</html>
+</html> 
