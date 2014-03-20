@@ -2,7 +2,7 @@ body {background-color:#b0c4de;}
 
 div{
 
-	border-radius:5px;
+
 
 
 }
@@ -10,7 +10,7 @@ div{
 div.menu{
 
 	min-height:1000px;
-	background-color:rgb(100,50,255);
+	background-color:rgb(100,100,255);
 	width:100px;
 	float:left;
 	white-space: pre-line;
@@ -20,14 +20,18 @@ div.menu{
 
 div.content{
 	min-height:1000px;
-	background-color:rgb(80,180,60);
+	background-color:rgb(220,220,250);
 	width:100%;
+
 
 }
 div.header{
 	background-color:rgb(50,50,200);
 	width:100%;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	border-top-right-radius:25px;
+	border-top-left-radius:25px;
+
 
 }
 
@@ -36,6 +40,8 @@ div.footer{
 	background-color:rgb(250,250,250);
 	clear:both;
 	text-align:center;
+	border-bottom-right-radius:25px; 
+	border-bottom-left-radius:25px; 
 
 }
 
@@ -75,5 +81,5 @@ table{
 
 }
 th{
-	background-color:green;
+	background-color:rgb(180,180,250);
 }
