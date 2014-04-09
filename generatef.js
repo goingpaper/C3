@@ -1,5 +1,5 @@
 window.onload = function() {
-    var html = 'Friends of User<table border="border">';
+    var html = 'Friends of User<table>';
 	var i=0;
 
 	while(i<15){

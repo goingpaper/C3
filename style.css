@@ -1,11 +1,33 @@
-body {background-color:#b0c4de;}
+body{ background-color: #26527C;}
 
+.primary-1 { background-color: #FF9700 }
+.primary-2 { background-color: #BF8530 }
+.primary-3 { background-color: #A66200 }
+.primary-4 { background-color: #FFB140 }
+.primary-5 { background-color: #FFC673 }
 
+.secondary-a-1 { background-color: #FFC300 }
+.secondary-a-2 { background-color: #BF9E30 }
+.secondary-a-3 { background-color: #A67F00 }
+.secondary-a-4 { background-color: #FFD240 }
+.secondary-a-5 { background-color: #FFDE73 }
+
+.secondary-b-1 { background-color: #2219B2 }
+.secondary-b-2 { background-color: #342F85 }
+.secondary-b-3 { background-color: #0E0874 }
+.secondary-b-4 { background-color: #554DD8 }
+.secondary-b-5 { background-color: #7872D8 }
+
+.complement-1 { background-color: #0C5AA6 }
+.complement-2 { background-color: #26527C }
+.complement-3 { background-color: #04396C }
+.complement-4 { background-color: #408AD2 }
+.complement-5 { background-color: #679ED2 }
 
 div.menu{
 
 	min-height:1000px;
-	background-color:rgb(100,100,255);
+	background-color: #7872D8 ;
 	width:100px;
 	float:left;
 	white-space: pre-line;
@@ -18,19 +40,19 @@ div.menu a{
 
 div.content{
 	min-height: 1000px;
-	background-color:rgb(220,220,250);
+	background-color:#FFDE73 ;
 	width:100%;
 
 
 }
+div.content div{
+	background-color:#FFC673; 
+
+}
 
 div.content #profile{
+
 	font-weight:bold;
-
-
-
-
-	background-color:#b0c4ff;
 	min-height:500px;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	text-align:center;
@@ -50,21 +72,23 @@ div.content div.topleft{
 	float:left;
 	width:30%;
 	text-align:center;
+	display:inline-block;
 
 }
 div.header{
-	background-color:rgb(80,80,200);
+	background-color:#FF9700;
 	width:100%;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	border-top-right-radius:10px;
 	border-top-left-radius:10px;
+	padding:0px;
 
 
 }
 
 div.footer{
 
-	background-color:rgb(250,250,250);
+	background-color:#679ED2;
 	clear:both;
 	text-align:center;
 	border-bottom-right-radius:10px; 
@@ -111,6 +135,5 @@ table{
 	top:30px;
 	border-collapse:collapse;
 	border-radius:15px;
-
 }
 

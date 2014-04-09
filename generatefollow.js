@@ -1,5 +1,5 @@
 window.onload = function() {
-    var html = 'Followers of User<table border="border">';
+    var html = 'Followers of User<table>';
 	var i=0;
 
 	while(i<15){
@@ -11,3 +11,4 @@ window.onload = function() {
 	html += '</table>';
 	document.getElementById('followerslist').innerHTML = html;
 }
+

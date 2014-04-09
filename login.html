@@ -2,14 +2,14 @@
 <html>
 <link rel="stylesheet" type="text/css"
 	href = "style.css"/>
-
+<script type="text/javascript" src="login.js">
+	</script>
 <head>
-	
+<title>
+	Login
+</title>
 </head>
-<body>
-
-<div class="header">
-
+<body><div class="header">
 	<h1>Welcome
 		<a href="user.html">User</a> 
 		<a href="login.html">Login</a>
@@ -23,15 +23,15 @@
 
 <div id="shadow2" class="content">
 	<div class="topleft">
-		<form>
-			<table border="border">
+		<form name="login" action="user.html" onsubmit="return check()">
+			<table>
 			 	<tr>
 			 		<th>Name</th>
-			 		<th><input type="text"></th>
+			 		<th><input type="text" name="username"></th>
 			 	</tr>
 			 	<tr>
 			 		<th>Password</th>
-			 		<th><input type="password"></th>
+			 		<th><input type="password" name="password"></th>
 			 	<tr>
 			 		<th>Submit</th>
 			 		<th><input type="submit" name="submit"></th>
