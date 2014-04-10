@@ -24,7 +24,7 @@ body{ background-color: #26527C;}
 .complement-4 { background-color: #408AD2 }
 .complement-5 { background-color: #679ED2 }
 
-div.menu{
+.menu{
 
 	min-height:1000px;
 	background-color: #7872D8 ;
@@ -34,48 +34,60 @@ div.menu{
 
 }
 
-div.menu a{
+.menu a{
 	width:100%;
 }
 
-div.content{
+.content{
 	min-height: 1000px;
 	background-color:#FFDE73 ;
 	width:100%;
 
 
 }
-div.content div{
-	background-color:#FFC673; 
 
+.img{
+	position:relative;
+	margin-left: 50px;
+	margin-top: 25px;
+	float:left;
 }
 
-div.content #profile{
+.content #profile{
 
 	font-weight:bold;
 	min-height:500px;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	text-align:center;
+	white-space: pre-line;
 
 }
-div.content #profile img{
+#example{
+	text-align:left;
+	white-space: pre-line;
+}
+.content #profile img{
 	width:100%;
 	height:auto;
 
+
 }
+.photos{
 
-div.content div.topleft{
-
+}
+.content .topleft{
+	background-color:#FFC673; 
 	position:relative;
-	left:50px;
-	top:25px;
+	margin-left: 50px;
+	margin-top: 25px;
+
 	float:left;
 	width:30%;
 	text-align:center;
 	display:inline-block;
 
 }
-div.header{
+.header{
 	background-color:#FF9700;
 	width:100%;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
@@ -86,7 +98,7 @@ div.header{
 
 }
 
-div.footer{
+.footer{
 
 	background-color:#679ED2;
 	clear:both;
@@ -107,7 +119,7 @@ a:hover{color:rgb(220,220,250);}
 
 
 
-div.header a:link,a:visited{
+.header a:link,a:visited{
 
 	display:inline;
 	font-weight:bold;
@@ -119,7 +131,7 @@ div.header a:link,a:visited{
 	border-radius:5px;
 
 }
-div.header a:hover{
+.header a:hover{
 	color:rgb(100,100,250);
 }
 a:hover,a:active
@@ -130,9 +142,7 @@ background-color:rgb(240,220,250);
 
 
 table{
-	position:relative;
-	left:30px;
-	top:30px;
+
 	border-collapse:collapse;
 	border-radius:15px;
 }
